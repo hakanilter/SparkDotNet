@@ -1,6 +1,9 @@
 #!/bin/bash
 
-#wget -O /tmp/NYSE-2000-2001.tsv.gz https://s3.amazonaws.com/hw-sandbox/tutorial1/NYSE-2000-2001.tsv.gz 
+# Need to set Spark home
+#SPARK_HOME=
+
+DOTNET_WORKER_DIR=Microsoft.Spark.Worker.netcoreapp2.1.osx-x64-0.3.0
 
 dotnet build
 
